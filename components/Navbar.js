@@ -10,22 +10,22 @@ export const Navbar = () => {
 
   return (
     <>
-      <nav className="flex items-center just bg-black p-3 font-sans">
+      <nav className="flex items-center p-4 font-sans bg-black">
         <Link href="/">
-          <a className="items-center p-2 ml-6 md:ml-11 ">
-            <span className="text-xl text-white font-semibold tracking-wider">
+          <a className="ml-3 mr-auto md:ml-16">
+            <span className="text-xl tracking-wider text-white">
               Pragnesh Anekal
             </span>
           </a>
         </Link>
-        <div className="flex ml-auto items-start h-auto">
+        <div className="flex ml-auto md:mr-12">
         <Link href="/">
-            <a className="w-auto px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-green-600 hover:text-white ">
+            <a className="px-4 py-2 tracking-wide text-white border-2 border-transparent rounded md:mx-4 hover:border-white hover:text-white">
             Home
             </a>
         </Link>
         <Link href="/about">
-            <a className="w-auto px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-green-600 hover:text-white">
+            <a className="px-4 py-2 tracking-wide text-white border-2 border-transparent rounded md:mx-4 hover:border-white hover:text-white">
             About
             </a>
         </Link>
